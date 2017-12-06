@@ -1,23 +1,25 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+    <div>
+        <cHeader></cHeader>
+
+        <div class="content">
+            <router-view/>
+        </div>
+
+        <cFooter></cFooter>
+    </div>
 </template>
 
 <script>
+import cHeader from './components/includes/header'
+import cFooter from './components/includes/footer'
+
 export default {
-  name: 'app'
+    name: 'app',
+
+    components: {
+        cHeader,
+        cFooter
+    }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
