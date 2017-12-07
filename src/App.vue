@@ -1,24 +1,20 @@
 <template>
     <div>
-        <cHeader></cHeader>
-
-        <div class="content">
-            <router-view/>
-        </div>
-
+        <cNav></cNav>
+        <router-view/>
         <cFooter></cFooter>
     </div>
 </template>
 
 <script>
-import cHeader from './components/includes/header'
-import cFooter from './components/includes/footer'
+import cNav from './components/pages/includes/nav'
+import cFooter from './components/pages/includes/footer'
 
 export default {
     name: 'app',
 
     components: {
-        cHeader,
+        cNav,
         cFooter
     }
 }
