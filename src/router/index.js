@@ -4,7 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 // Components
-import home from './../components/home'
+import home from './../components/pages/home'
 import NotFound from './../components/errors/not-found'
 
 // Routes
