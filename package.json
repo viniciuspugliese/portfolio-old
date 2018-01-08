@@ -1,5 +1,6 @@
 {
   "name": "viniciuspugliesi.github.io",
+  "homepage": "https://viniciuspugliesi.github.io/dist",
   "version": "1.0.0",
   "description": "My personal website",
   "author": "Vinicius Pugliesi <vinicius_pugliesi@outlook.com>",
@@ -10,13 +11,15 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "vue": "^2.5.2",
+    "vue-gh-pages": "^1.7.4",
     "vue-resource": "^1.3.4",
     "vue-router": "^3.0.1"
   },
