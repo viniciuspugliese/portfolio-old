@@ -3,7 +3,6 @@
         <cHeader></cHeader>
         <portfolio></portfolio>
         <timeline></timeline>
-        <contact></contact>
     </div>
 </template>
 
@@ -11,15 +10,13 @@
 import cHeader from '../header'
 import portfolio from '../portfolio'
 import timeline from '../timeline'
-import contact from '../contact'
 
 export default {
     name: 'home',
     components: {
     	cHeader,
     	portfolio,
-        timeline,
-    	contact
+        timeline
     }
 }
 </script>
