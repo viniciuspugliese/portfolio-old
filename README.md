@@ -8,4 +8,4 @@
 * My skills
 * My contact
 
-URL: https://viniciuspugliesi.github.io/dist
+URL: https://viniciuspugliesi.github.io/docs
