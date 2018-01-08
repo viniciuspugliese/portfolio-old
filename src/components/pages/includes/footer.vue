@@ -7,19 +7,24 @@
 	            </div>
 	            <div class="col-md-6">
 	                <ul class="list-inline social-buttons">
-	                    <li class="list-inline-item">
+	                    <li class="list-inline-item" title="GitHub">
 	                        <a href="https://github.com/viniciuspugliesi">
-	                        	<i class="fa fa-github"></i>
+	                        	<i class="fa fa-github" aria-hidden="true"></i>
 	                        </a>
 	                    </li>
-	                    <li class="list-inline-item">
+	                    <li class="list-inline-item" title="LinkedIn">
 	                        <a href="https://www.linkedin.com/in/viniciuspugliesi/">
-	                        	<i class="fa fa-linkedin"></i>
+	                        	<i class="fa fa-linkedin" aria-hidden="true"></i>
 	                        </a>
 	                    </li>
-	                    <li class="list-inline-item">
+	                    <li class="list-inline-item" title="E-mail">
+	                        <a href="mailto:vinicius_pugliesi@outlook.com">
+	                        	<i class="fa fa-envelope" aria-hidden="true"></i>
+	                        </a>
+	                    </li>
+	                    <li class="list-inline-item" title="Facebook">
 	                        <a href="https://www.facebook.com/viniciuspugliesi.2">
-	                        	<i class="fa fa-facebook"></i>
+	                        	<i class="fa fa-facebook" aria-hidden="true"></i>
 	                        </a>
 	                    </li>
 	                </ul>
