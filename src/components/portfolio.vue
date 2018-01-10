@@ -5,7 +5,7 @@
 	            <div class="row">
 	                <div class="col-lg-12 text-center">
 	                    <h2 class="section-heading">Portfolio</h2>
-	                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+	                    <h3 class="section-subheading text-muted">Abaixo estão meus últimos projetos desenvolvidos.</h3>
 	                </div>
 	            </div>
 	            <div class="row">
@@ -16,11 +16,11 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-	                        <img src="/static/images/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+	                        <img src="/static/images/portfolio/responde.png" class="img-responsive" alt="">
 	                    </a>
 	                    <div class="portfolio-caption">
-	                        <h4>Round Icons</h4>
-	                        <p class="text-muted">Graphic Design</p>
+	                        <h4>Responde</h4>
+	                        <p class="text-muted">Site de serviços</p>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -30,11 +30,11 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-	                        <img src="/static/images/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+	                        <img src="/static/images/portfolio/grupo-npo.png" class="img-responsive" alt="">
 	                    </a>
 	                    <div class="portfolio-caption">
-	                        <h4>Startup Framework</h4>
-	                        <p class="text-muted">Website Design</p>
+	                        <h4>Grupo NPO</h4>
+	                        <p class="text-muted">Site de vagas (Anuncio e candidatura)</p>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -44,11 +44,11 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-	                        <img src="/static/images/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+	                        <img src="/static/images/portfolio/oab-praia-grande.png" class="img-responsive" alt="">
 	                    </a>
 	                    <div class="portfolio-caption">
-	                        <h4>Treehouse</h4>
-	                        <p class="text-muted">Website Design</p>
+	                        <h4>OAB Praia Grande</h4>
+	                        <p class="text-muted">Site do Governo (Ordem dos Advogados do Brasil)</p>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -58,11 +58,11 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-	                        <img src="/static/images/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+	                        <img src="/static/images/portfolio/ultragaz-praia-grande.png" class="img-responsive" alt="">
 	                    </a>
 	                    <div class="portfolio-caption">
-	                        <h4>Golden</h4>
-	                        <p class="text-muted">Website Design</p>
+	                        <h4>Ultragaz Praia Grande</h4>
+	                        <p class="text-muted">Site de pedidos de Gás online</p>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -72,11 +72,11 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-	                        <img src="/static/images/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+	                        <img src="/static/images/portfolio/aponte-vagas.png" class="img-responsive" alt="">
 	                    </a>
 	                    <div class="portfolio-caption">
-	                        <h4>Escape</h4>
-	                        <p class="text-muted">Website Design</p>
+	                        <h4>Aponte Vagas</h4>
+	                        <p class="text-muted">Site de vagas (Anuncio e candidatura)</p>
 	                    </div>
 	                </div>
 	                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -86,13 +86,20 @@
 	                                <i class="fa fa-plus fa-3x"></i>
 	                            </div>
 	                        </div>
-	                        <img src="/static/images/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+	                        <img src="/static/images/portfolio/saude-integrada-online.png" class="img-responsive" alt="">
 	                    </a>
 	                    <div class="portfolio-caption">
-	                        <h4>Dreams</h4>
-	                        <p class="text-muted">Website Design</p>
+	                        <h4>Saúde Integrada Online</h4>
+	                        <p class="text-muted">Site de venda de cursos EAD (Estudo à distancia)</p>
 	                    </div>
 	                </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-md-12 text-right">
+	            		<a class="btn btn-primary">
+	            			Ver mais &nbsp; <i class="fa fa-arrow-right" aria-hidden="true"></i>
+	            		</a>
+	            	</div>
 	            </div>
 	        </div>
 	    </section>
