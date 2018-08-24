@@ -183,8 +183,19 @@ section.resume-section .resume-item .resume-date {
   background-color: #BD5D38 !important;
 }
 
+.bg-primary-light {
+  background-color: #ca7e62 !important;
+}
+
 .text-primary {
   color: #BD5D38 !important;
+}
+
+.card-deck .card:hover {
+  -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 a {

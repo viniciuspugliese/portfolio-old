@@ -2,8 +2,19 @@
   background-color: $primary !important;
 }
 
+.bg-primary-light {
+  background-color: $primary-light !important;
+}
+
 .text-primary {
   color: $primary !important;
+}
+
+.card-deck .card {
+  &:hover {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
 }
 
 a {
