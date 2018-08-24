@@ -70,9 +70,10 @@ p.lead {
   }
 }
 
-.dev-icons {
-  font-size: 3rem;
-  .list-inline-item i {
+.contact {
+  a {
+    color: $gray-600;
+
     &:hover {
       color: $primary;
     }

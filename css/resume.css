@@ -75,26 +75,26 @@ p.lead {
   background-color: #BD5D38;
 }
 
-.dev-icons {
-  font-size: 3rem;
+.contact a {
+  color: #868e96;
 }
 
-.dev-icons .list-inline-item i:hover {
+.contact a:hover {
   color: #BD5D38;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
+#side-nav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
 
-#sideNav .navbar-toggler:focus {
+#side-nav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
 
 @media (min-width: 992px) {
-  #sideNav {
+  #side-nav {
     text-align: center;
     position: fixed;
     top: 0;
@@ -109,19 +109,19 @@ p.lead {
     width: 22rem;
     height: 100vh;
   }
-  #sideNav .navbar-brand {
+  #side-nav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
   }
-  #sideNav .navbar-brand .img-profile {
+  #side-nav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
-  #sideNav .navbar-collapse {
+  #side-nav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -134,17 +134,17 @@ p.lead {
     width: 100%;
     margin-bottom: auto;
   }
-  #sideNav .navbar-collapse .navbar-nav {
+  #side-nav .navbar-collapse .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
+  #side-nav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  #side-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
 }
@@ -375,4 +375,48 @@ a:hover, a:focus, a:active {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-26 {
+  font-size: 26px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-30 {
+  font-size: 30px;
 }
