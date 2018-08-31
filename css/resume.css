@@ -219,7 +219,7 @@ a:hover, a:focus, a:active {
 }
 
 .table {
-  border-bottom: 0;
+  margin-bottom: 0;
 }
 
 .timeline {
