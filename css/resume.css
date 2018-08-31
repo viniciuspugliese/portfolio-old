@@ -51,6 +51,10 @@ ul {
   list-style-type: none;
 }
 
+ul.fa-ul {
+  margin-left: 0;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -212,6 +216,10 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.table {
+  border-bottom: 0;
 }
 
 .timeline {
