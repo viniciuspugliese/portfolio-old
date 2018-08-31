@@ -28,4 +28,11 @@
         target: '#side-nav'
     });
 
+    $(document).on('click', '[data-open="fancybox"]', function (e) {
+        e.preventDefault();
+        $.fancybox.open('<div class="card">' + $(this).html() + '<div class="card-body">' + $(this).parent().find('.card-body').html() + '</div></div>');
+    });
+
+    $('[data-toggle="tooltip"]').tooltip();
+
 })(jQuery); // End of use strict

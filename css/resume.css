@@ -42,6 +42,10 @@ h3 {
   font-size: 2rem;
 }
 
+a:focus {
+  outline: none;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -91,6 +95,26 @@ ul.fa-ul {
   color: #BD5D38;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-disabled {
+  cursor: not-allowed;
+}
+
+.fancybox-content img, .fancybox-content .card-text {
+  min-width: auto;
+  max-width: 1300px;
+}
+
+@media (max-width: 650px) {
+  .fancybox-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 #side-nav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -125,8 +149,8 @@ ul.fa-ul {
     padding: 0.5rem;
   }
   #side-nav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #side-nav .navbar-collapse {

@@ -37,6 +37,12 @@ h3 {
   font-size: 2rem;
 }
 
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -85,5 +91,27 @@ ul {
     &:hover {
       color: $primary;
     }
+  }
+}
+
+.cursor {
+  &-pointer {
+    cursor: pointer;
+  }
+
+  &-disabled {
+    cursor: not-allowed;
+  }
+}
+
+.fancybox-content {
+  img, .card-text {
+    min-width: auto;
+    max-width: 1300px;
+  }
+
+  @media (max-width: 650px) {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
