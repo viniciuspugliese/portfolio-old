@@ -303,8 +303,8 @@ a:hover, a:focus, a:active {
 .timeline > li .timeline-image {
   left: 0;
   margin-left: 0;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   position: absolute;
   z-index: 100;
   background-color: #ca7e62;
@@ -315,9 +315,9 @@ a:hover, a:focus, a:active {
 }
 
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 15px;
   margin-top: 12px;
-  line-height: 14px;
+  line-height: 17px;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -403,7 +403,7 @@ a:hover, a:focus, a:active {
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 30px;
     line-height: 26px;
   }
@@ -425,7 +425,7 @@ a:hover, a:focus, a:active {
     margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
-    margin-top: 40px;
+    margin-top: 34px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
