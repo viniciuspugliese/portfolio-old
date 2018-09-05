@@ -302,7 +302,6 @@ a:hover, a:focus, a:active {
   width: 90px;
   height: 90px;
   position: absolute;
-  z-index: 100;
   background-color: #ca7e62;
   color: white;
   border-radius: 100%;
@@ -426,6 +425,73 @@ a:hover, a:focus, a:active {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.floating-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: calc(50% - 100px);
+  width: 100%;
+  max-width: 390px;
+  z-index: 10;
+  padding: 10px 15px 10px 15px;
+  -webkit-box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.2);
+  background: #BD5D38;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.floating-box.floating-box--right {
+  right: -400px;
+}
+
+.floating-box.floating-box--left {
+  left: -400px;
+}
+
+@media (max-width: 990px) {
+  .floating-box {
+    min-width: 100%;
+    bottom: 0;
+    top: auto;
+  }
+  .floating-box.floating-box--right {
+    right: -101%;
+  }
+  .floating-box.floating-box--left {
+    left: -101%;
+  }
+}
+
+.floating-box h4, .floating-box p, .floating-box i, .floating-box a {
+  color: #fff;
+}
+
+.floating-box .floating-box--header {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+
+.floating-box .floating-box--header .floating-box--close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.floating-box .floating-box--footer {
+  margin-top: 10px;
+}
+
+.floating-box .floating-box--footer a {
+  font-size: 13px;
 }
 
 .font-10 {

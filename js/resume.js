@@ -1,6 +1,9 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    // Initialize tooltips
+    $('[data-toggle="tooltip"]').tooltip();
+
     // Smooth scrolling using jQuery easing
     $(document).on('click', 'a.js-scroll-trigger[href*="#"]:not([href="#"])', function(event) {
         event.preventDefault();
@@ -28,11 +31,34 @@
         target: '#side-nav'
     });
 
+    // Open fancybox
     $(document).on('click', '[data-open="fancybox"]', function (e) {
         e.preventDefault();
         $.fancybox.open('<div class="card">' + $(this).html() + '<div class="card-body">' + $(this).parent().find('.card-body').html() + '</div></div>');
     });
 
-    $('[data-toggle="tooltip"]').tooltip();
+    // Close floating box
+    $(document).on('click', '[data-close="floating-box"]', function(event) {
+        event.preventDefault();
+
+        var widht = $('[data-close-reference="floating-box"]').outerWidth() + 10;
+
+        $('[data-close-reference="floating-box"]').css('transform', 'translateX(-'+(widht + 40)+'px)');
+
+        setTimeout(function() {
+            $('[data-close-reference="floating-box"]').css('transform', 'translateX(-0px)');
+        }, 400);
+    });
+
+    // Show floating box
+    setTimeout(function() {
+        var widht = $('[data-close-reference="floating-box"]').outerWidth() + 10;
+
+        $('[data-close-reference="floating-box"]').css('transform', 'translateX(-'+(widht + 40)+'px)');
+
+        setTimeout(function() {
+            $('[data-close-reference="floating-box"]').css('transform', 'translateX(-'+widht+'px)');
+        }, 400);
+    }, 15000);
 
 })(jQuery); // End of use strict
