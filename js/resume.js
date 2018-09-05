@@ -39,26 +39,12 @@
 
     // Close floating box
     $(document).on('click', '[data-close="floating-box"]', function(event) {
-        event.preventDefault();
-
-        var widht = $('[data-close-reference="floating-box"]').outerWidth() + 10;
-
-        $('[data-close-reference="floating-box"]').css('transform', 'translateX(-'+(widht + 40)+'px)');
-
-        setTimeout(function() {
-            $('[data-close-reference="floating-box"]').css('transform', 'translateX(-0px)');
-        }, 400);
+        $('[data-close-reference="floating-box"]').removeClass('floating-box--show');
     });
 
     // Show floating box
     setTimeout(function() {
-        var widht = $('[data-close-reference="floating-box"]').outerWidth() + 10;
-
-        $('[data-close-reference="floating-box"]').css('transform', 'translateX(-'+(widht + 40)+'px)');
-
-        setTimeout(function() {
-            $('[data-close-reference="floating-box"]').css('transform', 'translateX(-'+widht+'px)');
-        }, 400);
+        $('[data-close-reference="floating-box"]').addClass('floating-box--show');
     }, 15000);
 
 })(jQuery); // End of use strict

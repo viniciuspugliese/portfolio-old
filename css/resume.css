@@ -437,8 +437,8 @@ a:hover, a:focus, a:active {
   flex-direction: column;
   position: fixed;
   top: calc(50% - 100px);
-  width: 100%;
-  max-width: 390px;
+  width: 390px;
+  max-width: 100%;
   z-index: 10;
   padding: 10px 15px 10px 15px;
   -webkit-box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.2);
@@ -456,17 +456,19 @@ a:hover, a:focus, a:active {
   left: -400px;
 }
 
+.floating-box.floating-box--show.floating-box--right {
+  right: 0;
+}
+
+.floating-box.floating-box--show.floating-box--left {
+  left: 0;
+}
+
 @media (max-width: 990px) {
   .floating-box {
-    min-width: 100%;
+    width: 100%;
     bottom: 0;
     top: auto;
-  }
-  .floating-box.floating-box--right {
-    right: -101%;
-  }
-  .floating-box.floating-box--left {
-    left: -101%;
   }
 }
 
