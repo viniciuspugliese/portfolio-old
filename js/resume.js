@@ -39,6 +39,7 @@
 
     // Close floating box
     $(document).on('click', '[data-close="floating-box"]', function(event) {
+        event.preventDefault();
         $('[data-close-reference="floating-box"]').removeClass('floating-box--show');
     });
 
