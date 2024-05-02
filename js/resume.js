@@ -31,21 +31,4 @@
         target: '#side-nav'
     });
 
-    // Open fancybox
-    $(document).on('click', '[data-open="fancybox"]', function (e) {
-        e.preventDefault();
-        $.fancybox.open('<div class="card">' + $(this).html() + '<div class="card-body">' + $(this).parent().find('.card-body').html() + '</div></div>');
-    });
-
-    // Close floating box
-    $(document).on('click', '[data-close="floating-box"]', function(event) {
-        event.preventDefault();
-        $('[data-close-reference="floating-box"]').removeClass('floating-box--show');
-    });
-
-    // Show floating box
-    setTimeout(function() {
-        $('[data-close-reference="floating-box"]').addClass('floating-box--show');
-    }, 15000);
-
 })(jQuery); // End of use strict
